@@ -32,6 +32,22 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :test, :development do
+  gem "rspec", "~> 2.0"
+  gem "rspec-rails", "~> 2.0"
+end
+
+#Devise
+gem 'devise'
+
+#Authorization
+gem "cancan"
+
+gem "paperclip", "~> 3.0"
+
+#paginator
+gem "kaminari"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
