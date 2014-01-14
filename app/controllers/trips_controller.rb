@@ -12,7 +12,8 @@ class TripsController < ApplicationController
   end
 
   def show
-find_trip
+    find_trip
+@places=@trip.places
   end
 
   private
